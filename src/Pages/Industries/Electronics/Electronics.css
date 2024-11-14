@@ -116,7 +116,7 @@
 }
 
 /* Why Nagarkot Section */
-.why-nagarkot-section {
+ .why-nagarkot-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,5 +173,191 @@
 }
 
 
-
+@media (min-width:320px) and (max-width:520px) {
+  .electronics-section{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 0;
+  }
+  .electronics-content-wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .electronics-section-title{
+    font-size: 28px;
+    line-height: 1.1;
+  }
+  .electronics-section-description{
+    font-size: 14px;
+  }
+  .electronics-industry-overview{
+    margin-top: 20px;
+  }
+  .electronics-industry-overview h2{
+    font-size: 28px;
+  }
+  .electronics-industry-overview p{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 14px;
+  }
+  .electronics-offerings-title{
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  .electronics-offerings-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: auto;
+    gap: 10px;
+  }
+  .electronics-offering-card h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+  }
   
+  .electronics-offering-card p{
+    font-size: 14px;
+    line-height: 22px;
+   
+  }
+  .why-nagarkot-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding-left: 0;
+    margin:20px auto;
+    gap: 20px;
+    
+   }
+   .image-container{
+     width: 90%;
+     margin:auto;
+   }
+   .why-nagarkot-image{
+     margin-left: 0;
+     width:100%;
+   }
+   .content-container{
+     width: 80%;
+     padding-left: 0px;
+     margin-right: 0px;
+     margin-left: 0px;
+     flex: 1;
+   }
+   .why-nagarkot-title{
+     font-size: 28px;
+   }
+   .why-nagarkot-list {
+     margin-left: 0;
+     line-height: 18px;
+     text-align: inherit;
+     
+   }
+   .why-nagarkot-list li{
+     font-size: 14px;
+     
+   }
+   .why-nagarkot-summary{
+     font-size: 14px;
+   }
+}
+
+@media (min-width:520px) and (max-width:978px) {
+  .electronics-section{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 0;
+  }
+  .electronics-content-wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .electronics-section-title{
+    font-size: 28px;
+    line-height: 1.1;
+  }
+  .electronics-section-description{
+    font-size: 14px;
+  }
+  .electronics-industry-overview{
+    margin-top: 20px;
+  }
+  .electronics-industry-overview h2{
+    font-size: 28px;
+  }
+  .electronics-industry-overview p{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 16px;
+  }
+  .electronics-offerings-title{
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  .electronics-offerings-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    gap: 10px;
+  }
+  .electronics-offering-card h3{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .electronics-offering-card p{
+    font-size: 14px;
+    line-height: 22px;
+   
+  }
+  .why-nagarkot-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding-left: 0;
+    margin:20px auto;
+    gap: 20px;
+    
+   }
+   .image-container{
+     width: 90%;
+     margin:auto;
+   }
+   .why-nagarkot-image{
+     margin-left: 0;
+     width:100%;
+   }
+   .content-container{
+     width: 80%;
+     padding-left: 0px;
+     margin-right: 0px;
+     margin-left: 0px;
+     flex: 1;
+   }
+   .why-nagarkot-title{
+     font-size: 28px;
+   }
+   .why-nagarkot-list {
+     margin-left: 0;
+     line-height: 18px;
+     text-align: inherit;
+     
+   }
+   .why-nagarkot-list li{
+     font-size: 14px;
+     
+   }
+   .why-nagarkot-summary{
+     font-size: 14px;
+   }
+}

@@ -44,4 +44,19 @@
     box-shadow: 0 0 35px #C61C1A;
     background: linear-gradient(to left, #e03b3b, #8f0404);
   }
-  
+  /*responsive*/
+  @media (min-width:320px) and (max-width:720px) {
+    .still-got-questions{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+    }
+    .still-got-questions-text p{
+      font-size: 32px;
+    }
+    .still-got-questions-button{
+      margin-bottom: 12px;
+    }
+  }

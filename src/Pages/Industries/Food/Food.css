@@ -116,7 +116,7 @@
 }
 
 /* Why Nagarkot Section */
-.why-nagarkot-section {
+ .why-nagarkot-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -170,5 +170,194 @@
   color: white;
   line-height: 1.6;
   font-family: "Arial", sans-serif;
+} 
+
+@media (min-width:320px) and (max-width:520px) {
+  .food-section{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 0;
+  }
+  .food-content-wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .food-section-title{
+    font-size: 28px;
+    line-height: 1.1;
+  }
+  .food-section-description{
+    font-size: 14px;
+  }
+  .food-industry-overview{
+    margin-top: 20px;
+  }
+  .food-industry-overview h2{
+    font-size:28px;
+  }
+  .food-industry-overview p{
+    font-size: 14px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .food-offerings-section{
+    width: 90%;
+    margin: auto;
+  }
+  .food-offerings-title{
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom:20px;
+  }
+  .food-offerings-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: auto;
+  }
+  .food-offering-card h3{
+    font-size: 18px;
+    line-height: 1.1;
+  }
+  .food-offering-card p{
+    font-size: 14px;
+  }
+
+  .why-nagarkot-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding-left: 0;
+    margin: auto;
+    gap: 20px;
+   
+   }
+   .image-container{
+     width: 90%;
+     margin:auto;
+   }
+   .why-nagarkot-image{
+     margin-left: 0;
+     width:100%;
+   }
+   .content-container{
+     width: 90%;
+     margin: auto;
+     padding-left: 0px;
+     margin-right: 0px;
+     margin-left: 0px;
+     flex: 1;
+   }
+   .why-nagarkot-title{
+     font-size: 28px;
+   }
+   .why-nagarkot-list {
+     margin-left: 0;
+     line-height: 18px;
+     text-align: inherit;
+   }
+   .why-nagarkot-list li{
+     font-size: 14px;
+   }
+   .why-nagarkot-summary{
+     font-size: 14px;
+   }
 }
 
+@media (min-width:520px) and (max-width:978px) {
+  .food-section{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 0;
+  }
+  .food-content-wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .food-section-title{
+    font-size: 36px;
+    line-height: 1.1;
+  }
+  .food-section-description{
+    font-size: 14px;
+  }
+  .food-industry-overview{
+    margin-top: 20px;
+  }
+  .food-industry-overview h2{
+    font-size:28px;
+  }
+  .food-industry-overview p{
+    font-size: 14px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .food-offerings-section{
+    width: 90%;
+    margin: auto;
+  }
+  .food-offerings-title{
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom:20px;
+  }
+  .food-offerings-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+  }
+  .food-offering-card h3{
+    font-size: 18px;
+    line-height: 1.1;
+  }
+  .food-offering-card p{
+    font-size: 14px;
+  }
+
+  .why-nagarkot-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding-left: 0;
+    margin: auto;
+    gap: 20px;
+   
+   }
+   .image-container{
+     width: 90%;
+     margin:auto;
+   }
+   .why-nagarkot-image{
+     margin-left: 0;
+     width:100%;
+   }
+   .content-container{
+     width: 90%;
+     margin: auto;
+     padding-left: 0px;
+     margin-right: 0px;
+     margin-left: 0px;
+     flex: 1;
+   }
+   .why-nagarkot-title{
+     font-size: 28px;
+   }
+   .why-nagarkot-list {
+     margin-left: 0;
+     line-height: 18px;
+     text-align: inherit;
+   }
+   .why-nagarkot-list li{
+     font-size: 14px;
+   }
+   .why-nagarkot-summary{
+     font-size: 14px;
+   }
+}

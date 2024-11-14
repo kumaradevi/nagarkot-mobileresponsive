@@ -114,3 +114,40 @@ label {
   background: linear-gradient(to left, #8e79f7, #070463);
 }
 
+
+@media (min-width:320px) and (max-width:620px){
+  .modal-overlay{
+    width: 100%;
+  }
+  .modal-content{
+    width: 90%;
+   min-height: 400px;
+  }
+ 
+  .form-row{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 5px;
+    gap: 10px;
+  }
+  .form-group{
+    width: 100%;
+  }
+  .form-row label{
+    width: 100%;
+    font-size: 14px;
+  }
+  .modal-content input,
+.modal-content textarea{
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 3px;
+  
+}
+.btn-submit{
+  padding: 5px 10px;
+  font-size: 14px;
+  margin:5px auto;
+}
+
+}

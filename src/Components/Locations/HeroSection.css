@@ -7,9 +7,10 @@
     margin-top: 100px;
     margin-left: 100px;
     margin-right: 100px;
+    z-index: -1;
   }
   
-  .hero-content {
+  .hero-content{
     flex: 1;
     max-width: 40%;
   }
@@ -49,3 +50,114 @@
     margin-right: 30px;
   }
   
+  @media (min-width:320px) and (max-width:520px) {
+     .hero-section{
+      padding: 0;
+      width: 90%;
+      min-height: 380px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      overflow: hidden;
+      margin-bottom: 20px;
+     
+     }
+     .hero-content-location{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin: auto;
+      
+      
+      /* z-index: -1; */
+      
+     }
+     .hero-title{
+      font-size: 25px;
+     font-weight: 600;
+     margin-top: 10px;
+     }
+     .hero-subtitle{
+      /* margin-top: 20px; */
+      font-size: 14px;
+     }
+     .hero-button{
+      margin-top: 0;
+      padding: 8px 12px;
+      font-size: 12px;
+      letter-spacing: 1px;
+      border-radius: 3px;
+     }
+     .hero-image{
+      opacity: 60%;
+      width:90%;
+      overflow: hidden;
+      margin: auto;
+      margin-right: 0;
+      margin-left: 0;
+      border-radius: 10px;
+
+     }
+     .hero-image img{
+      width: 100%;
+      overflow: hidden;
+     }
+  }
+
+    
+ 
+
+ @media (min-width:521px) and (max-width:978px) {
+  .hero-section{
+   padding: 0;
+   width: 90%;
+   
+   height: 380px;
+   margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+  
+   display: flex;
+   align-items: center;
+  gap: 20px;
+   overflow: hidden;
+   margin-bottom: 20px;
+   margin: auto;
+  }
+  .hero-content-location{
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   margin: auto;
+   
+   
+   /* z-index: -1; */
+   
+  }
+  .hero-title{
+   font-size: 25px;
+  font-weight: 600;
+  
+  }
+  .hero-subtitle{
+   /* margin-top: 20px; */
+   font-size: 14px;
+  }
+  .hero-button{
+   margin-top: 0;
+   padding: 8px 12px;
+   font-size: 12px;
+   letter-spacing: 1px;
+   border-radius: 3px;
+  }
+  .hero-image{
+   opacity: 60%;
+   width: 90%;
+   overflow: hidden;
+   margin: auto;
+   border-radius: 10px;
+   height: 240px;
+  }
+}

@@ -92,3 +92,19 @@
 .logo-track:hover {
   animation-play-state: paused;
 }
+
+/* responsive */
+@media (min-width:320px) and (max-width:978px) {
+  
+  .clients-title{
+    font-size: 32px;
+    line-height: 1.1;
+  }
+  .logo-slider{
+    width: 100%;
+  }
+  .logo-item img{
+    width: 100px;
+    height: 100px;
+  }
+}

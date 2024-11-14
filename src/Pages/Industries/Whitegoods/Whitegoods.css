@@ -166,7 +166,7 @@
 }
 
 /* Why Nagarkot Section */
-.why-nagarkot-section {
+ .why-nagarkot-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -223,4 +223,232 @@
 }
 
 
-  
+  @media (min-width:320px) and (max-width:520px){
+    .whitegoods-section{
+      margin-top: 0;
+      width: 100%;
+      min-height: 300px;
+    }
+    .whitegoods-content-wrapper{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 90%;
+    }
+    .whitegoods-section-title{
+      font-size: 28px;
+      line-height: 1.1;
+    }
+    .whitegoods-section-description{
+      font-size: 14px;
+     
+    }
+    .whitegoods-industry-overview{
+      margin-top: 20px;
+    }
+    .whitegoods-industry-overview h2{
+      font-size: 28px;
+    }
+    .whitegoods-industry-overview p{
+      font-size: 16px;
+      margin: auto;
+      padding: 0;
+      width: 100%;
+    }
+    .whitegoods-key-challenges{
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: auto;
+      padding: auto;
+      padding-top: 0;
+      
+    }
+    .whitegoods-key-challenges-heading{
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .whitegoods-key-challenges-content{
+      margin: auto;
+    }
+    .whitegoods-key-challenges-image{
+      width: 100%;
+      /* height: 200px; */
+    }
+    .whitegoods-key-challenges-image img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin-top: 20px;
+    }
+    .whitegoods-offerings-title {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .whitegoods-offerings-grid{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      margin: auto;
+    }
+    .whitegoods-offering-card h3{
+      font-size: 22px;
+      line-height: 1.1;
+    }
+    .whitegoods-offering-card p{
+      font-size: 14px;
+    }
+    .why-nagarkot-section{
+      display: flex;
+      flex-direction: column;
+      margin-left: 0;
+      padding-left: 0;
+      margin: auto;
+      gap: 20px;
+     
+     }
+     .image-container{
+       width: 90%;
+       margin:auto;
+     }
+     .why-nagarkot-image{
+       margin-left: 0;
+       width:100%;
+     }
+     .content-container{
+       width: 80%;
+       padding-left: 0px;
+       margin-right: 0px;
+       margin-left: 0px;
+       flex: 1;
+     }
+     .why-nagarkot-title{
+       font-size: 28px;
+     }
+     .why-nagarkot-list {
+       margin-left: 0;
+       line-height: 18px;
+       text-align: inherit;
+     }
+     .why-nagarkot-list li{
+       font-size: 14px;
+     }
+     .why-nagarkot-summary{
+       font-size: 14px;
+     }
+  }
+
+  @media (min-width:520px) and (max-width:978px){
+    .whitegoods-section{
+      margin-top: 0;
+      width: 100%;
+      min-height: 300px;
+    }
+    .whitegoods-content-wrapper{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 90%;
+    }
+    .whitegoods-section-title{
+      font-size: 36px;
+      line-height: 1.1;
+    }
+    .whitegoods-section-description{
+      font-size: 14px;
+     
+    }
+    .whitegoods-industry-overview{
+      margin-top: 20px;
+    }
+    .whitegoods-industry-overview h2{
+      font-size: 28px;
+    }
+    .whitegoods-industry-overview p{
+      font-size: 16px;
+      margin: auto;
+      padding: 0;
+      width: 100%;
+    }
+    .whitegoods-key-challenges{
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: auto;
+      padding: auto;
+      padding-top: 0;
+      
+    }
+    .whitegoods-key-challenges-heading{
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .whitegoods-key-challenges-content{
+      margin: auto;
+    }
+    .whitegoods-key-challenges-image{
+      width: 100%;
+      /* height: 200px; */
+    }
+    .whitegoods-key-challenges-image img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin-top: 20px;
+    }
+    .whitegoods-offerings-title {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .whitegoods-offerings-grid{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      margin: auto;
+    }
+    .whitegoods-offering-card h3{
+      font-size: 22px;
+      line-height: 1.1;
+    }
+    .whitegoods-offering-card p{
+      font-size: 14px;
+    }
+    .why-nagarkot-section{
+      display: flex;
+      flex-direction: column;
+      margin-left: 0;
+      padding-left: 0;
+      margin: auto;
+      gap: 20px;
+     
+     }
+     .image-container{
+       width: 90%;
+       margin:auto;
+     }
+     .why-nagarkot-image{
+       margin-left: 0;
+       width:100%;
+     }
+     .content-container{
+       width: 80%;
+       padding-left: 0px;
+       margin-right: 0px;
+       margin-left: 0px;
+       flex: 1;
+     }
+     .why-nagarkot-title{
+       font-size: 28px;
+     }
+     .why-nagarkot-list {
+       margin-left: 0;
+       line-height: 18px;
+       text-align: inherit;
+     }
+     .why-nagarkot-list li{
+       font-size: 14px;
+     }
+     .why-nagarkot-summary{
+       font-size: 14px;
+     }
+  }

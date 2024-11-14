@@ -163,3 +163,144 @@
 .contact-info a:hover {
   text-decoration: underline;
 }
+/* responsive*/
+@media (min-width:320px) and (max-width:752px) {
+  .footer{
+    padding: 0;
+ 
+  }
+  .footer-top{
+    display: flex;
+    flex-direction: column;
+   
+    width: 80%;
+    margin: auto;
+
+  
+  }
+  .footer-logo{
+    display: flex;
+   flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    
+  }
+  .footer-logo img{
+    margin: 30px auto;
+    width: 150px;
+   
+  }
+
+.contact-info{
+  width: 100%;
+  margin: 10px auto;
+  
+}
+  .footer-sections{
+    width: 100%;
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+  margin: auto;
+   gap: 20px;
+   
+  }
+.footer-sections h3{
+  font-size: 20px;
+}
+.footer-column li{
+  line-height: 15px;
+}
+.footer-column a{
+  font-size: 16px;
+
+}
+
+.footer-bottom{
+  width: 80%;
+  margin: auto;
+ 
+}
+ .footer-grid{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+ margin: auto;
+ }
+ .footer-grid h3{
+  font-size: 22px;
+ }
+ .grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+ }
+.grid li a{
+  font-size: 16px;
+}
+ .footer-terms-social{
+  display: flex;
+  flex-direction: column;
+ }
+ .footer-social{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+ }
+ .footer-social a img{
+  width: 30px;
+ }
+}
+@media (min-width:752px) and (max-width:980px) {
+  .footer{
+    display: flex;
+    gap: 30px;
+  }
+  .footer-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+  }
+  .footer-sections{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+  }
+  .footer-logo{
+    display: flex;
+  
+    justify-content:space-between;
+    align-items: center;
+    
+  }
+  .footer-logo img{
+    margin: 30px auto;
+    width: 150px;
+   
+  }
+  .footer-bottom{
+    width: 100%;
+   
+  }
+  .footer-grid{
+    margin: auto;
+    gap: 30px;
+    width: 100%;
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(2,1fr);
+   
+  }
+ 
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+  }
+  
+
+}

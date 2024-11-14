@@ -116,7 +116,7 @@
 }
 
 /* Why Nagarkot Section */
-.why-nagarkot-section {
+ .why-nagarkot-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -131,7 +131,7 @@
   width: 100%;
   height: auto;
   border-radius: 0px;
-  opacity: 0.5; /* Adds opacity to the image */
+  opacity: 0.5; /* Adds opacity to the image*/
   margin-left: 50px;
 }
 
@@ -170,5 +170,224 @@
   color: white;
   line-height: 1.6;
   font-family: "Arial", sans-serif;
+} 
+/* responsive code for mobile optimization  */ 
+@media (min-width:320px) and (max-width:520px) {  /* screen sizes between 320px and 520px*/
+  .apparel-fashion-section{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 0;
+    
+  }
+  .apparel-content-wrapper{
+    width:90%;
+    margin: auto;
+    text-align:initial;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .apparel-industry-overview{
+    margin-top: 10px;
+    
+  }
+  .apparel-industry-overview h2{
+    font-size: 28px;
+  }
+  .apparel-industry-overview p{
+    font-size: 15px;
+   margin-bottom: 0;
+ margin: auto;
+  }
+  .gray-line{
+    margin-top: 0;
+  }
+  .apparel-offerings-section{
+    padding: 0;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    
+  }
+  .apparel-offerings-title{
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    
+  }
+  .apparel-offerings-grid {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: auto;
+    gap: 10px;
+  }
+  .apparel-offering-card{
+    margin-bottom: 0;
+   
+  }
+  .apparel-offering-card h3{
+    font-size: 20px;
+  }
+  .apparel-offering-card p{
+    font-size: 14px;
+  }
+  .apparel-section-title{
+    font-size: 28px;
+    line-height: 1.1;
+    margin-top: 10px;
+  }
+  .apparel-section-description{
+    font-size: 14px;
+  }
+  .why-nagarkot-section{
+   display: flex;
+   flex-direction: column;
+   margin-left: 0;
+   padding-left: 0;
+   margin:20px auto;
+   gap: 20px;
+   
+  }
+  .image-container{
+    width: 90%;
+    margin:auto;
+  }
+  .why-nagarkot-image{
+    margin-left: 0;
+    width:100%;
+    margin-top: 20px;
+  }
+  .content-container{
+    width: 80%;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    flex: 1;
+  }
+  .why-nagarkot-title{
+    font-size: 28px;
+  }
+  .why-nagarkot-list {
+    margin-left: 0;
+    line-height: 18px;
+    text-align: inherit;
+   
+    
+  }
+  .why-nagarkot-list li{
+    font-size: 14px;
+  }
+  .why-nagarkot-summary{
+    font-size: 14px;
+  }
 }
 
+@media (min-width:520px) and (max-width:978px) { /* screen sizes between 520px and 978px*/
+  
+  .apparel-fashion-section{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 0;
+    
+  }
+  .apparel-content-wrapper{
+    width:90%;
+    margin: auto;
+    /* text-align:initial; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .apparel-industry-overview{
+    margin-top: 10px;
+    
+  }
+  .apparel-industry-overview h2{
+    font-size: 28px;
+   
+  }
+  .apparel-industry-overview p{
+    font-size: 15px;
+   margin-bottom: 0;
+ margin: auto;
+  }
+  .gray-line{
+    margin-top: 0;
+  }
+  .apparel-offerings-section{
+    padding: 0;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    
+  }
+  .apparel-offerings-title{
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    
+  }
+  .apparel-offerings-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    gap: 10px;
+  }
+  
+  .apparel-offering-card h3{
+    font-size: 20px;
+    line-height: 1.1;
+  }
+  .apparel-offering-card p{
+    font-size: 14px;
+  }
+  .apparel-section-title{
+    font-size: 28px;
+    line-height: 42px;
+    margin-top: 10px;
+  }
+  .apparel-section-description{
+    font-size: 14px;
+  }
+  .why-nagarkot-section{
+   display: flex;
+   flex-direction: column;
+   margin-left: 0;
+   padding-left: 0;
+   margin:20px auto;
+   gap: 20px;
+   
+  }
+  .image-container{
+    width: 90%;
+    margin:auto;
+  }
+  .why-nagarkot-image{
+    margin-left: 0;
+    width:100%;
+    margin-top: 20px;
+  }
+  .content-container{
+    width: 80%;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    flex: 1;
+  }
+  .why-nagarkot-title{
+    font-size: 28px;
+  }
+  .why-nagarkot-list {
+    margin-left: 0;
+    line-height: 18px;
+    text-align: inherit;
+   
+    
+  }
+  .why-nagarkot-list li{
+    font-size: 16px;
+  }
+  .why-nagarkot-summary{
+    font-size: 14px;
+  }
+}

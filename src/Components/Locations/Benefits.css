@@ -70,3 +70,80 @@
     font-weight: normal;
 
   }
+
+  @media (min-width:320px) and (max-width:520px) {
+    .benefits-section{
+      padding-bottom: 20px;
+     padding: 0;
+      width: 90%;
+      /* margin-left: 0;
+      margin-right: 0; */
+      margin: auto;
+      
+     padding-bottom: 10px;
+    }
+    .title{
+      padding-top: 20px !important;
+      font-size: 22px !important;
+     
+    }
+    .benefits-content{
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      padding: 0;
+    
+    }
+    
+   .benefit-icon{
+    width: 60px;
+    height: 60px;
+   }
+    .benefit-item h3{
+      font-size: 22px;
+    }
+    .benefit-item p{
+      font-size: 14px;
+    }
+    .benefit-text h3{
+      line-height: 1.1;
+    }
+    
+  }
+
+  @media (min-width:521px) and (max-width:978px) {
+    .benefits-section{
+     
+      padding: 40px auto;
+      width: 90%;
+      margin: auto;
+      
+    }
+    .title{
+      font-size: 26px !important;
+    }
+    .benefits-content{
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      padding: 0;
+    
+    }
+    
+   .benefit-icon{
+    width: 60px;
+    height: 60px;
+   }
+    .benefit-item h3{
+      font-size: 22px;
+    }
+    .benefit-item p{
+      font-size: 14px;
+    }
+    .benefit-text h3{
+      line-height: 1.1;
+    }
+    
+  }

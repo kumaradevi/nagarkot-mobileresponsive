@@ -50,3 +50,38 @@
     text-decoration: none; /* Remove underline from links */
   }
   
+
+  @media (min-width:320px) and (max-width:810px) {
+    .blogs-container{
+      width: 100%;
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin: auto;
+     overflow: hidden;
+    margin-top: 20px;
+    border-radius: 20px;
+    }
+    .background-image{
+     
+      width: 100%;
+      margin: auto;
+      height: 300px;
+      background-color: red;
+    }
+    .blog-detail-container{
+      margin-top: 20px;
+    }
+    .blog-title-container{
+      width: 80%;
+      margin: auto;
+     margin-top: 0;
+    }
+    .blog-title{
+      font-size: 23px;
+     
+    }
+    .blog-body{
+      font-size: 14px;
+    }
+  }

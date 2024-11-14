@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .automotive-section {
   background: linear-gradient(rgba(58, 55, 86, 0.7), rgba(10, 1, 61, 0.7)), url('../../../assets/industry_logo/auto.webp');
   background-color: black;
@@ -168,7 +172,7 @@
 }
 
 /* Why Nagarkot Section */
-.why-nagarkot-section {
+ .why-nagarkot-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -222,4 +226,254 @@
   color: white;
   line-height: 1.6;
   font-family: "Arial", sans-serif;
+} 
+
+@media (min-width:320px) and (max-width:520px) {
+  .automotive-section{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 0;
+    
+  }
+  .automotive-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+  }
+  .automotive-section-title{
+    font-size:28px;
+    line-height: 1.1;
+  }
+  .automotive-section-description{
+    font-size: 14px;
+  }
+  .automotive-industry-overview{
+    margin-top: 0;
+  }
+  .automotive-industry-overview h2{
+    font-size: 28px;
+  }
+  .automotive-industry-overview p{
+    padding: auto;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .automotive-key-challenges{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 0;
+   
+  }
+  .automotive-key-challenges-heading{
+    font-size: 28px;
+   margin-bottom: 10px;
+  }
+  .automotive-key-challenges-content{
+    width: 90%;
+    margin: auto;
+    
+  }
+ .automotive-key-challenges-list{
+  font-size: 14px;
+ }
+  .automotive-key-challenges-image{
+    width: 90%;
+  }
+  .automotive-key-challenges-image img{
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 0;
+    
+  }
+  .automotive-offerings-section{
+    margin-top: 30px;
+    padding: 10px 5px;
+  }
+  .automotive-offerings-title{
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  .automotive-offerings-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: auto;
+    gap: 10px;
+  }
+  
+  .automotive-offering-card h3{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .automotive-offering-card p,.automotive-offering-card ul li{
+    font-size: 14px;
+  }
+  .why-nagarkot-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding-left: 0;
+    margin:20px auto;
+    gap: 20px;
+    
+   }
+   .image-container{
+     width: 90%;
+     margin:auto;
+   }
+   .why-nagarkot-image{
+     margin-left: 0;
+     width:100%;
+   }
+   .content-container{
+     width: 80%;
+     padding-left: 0px;
+     margin-right: 0px;
+     margin-left: 0px;
+     flex: 1;
+   }
+   .why-nagarkot-title{
+     font-size: 28px;
+   }
+   .why-nagarkot-list {
+     margin-left: 0;
+     line-height: 18px;
+     
+   }
+   .why-nagarkot-list li{
+     font-size: 14px;
+     text-align: inherit;
+   }
+   .why-nagarkot-summary{
+     font-size: 14px;
+   }
+}
+
+@media (min-width:520px) and (max-width:978px) {
+  .automotive-section{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 0;
+    
+  }
+  .automotive-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+  }
+  .automotive-section-title{
+    font-size:28px;
+    line-height: 1.1;
+  }
+  .automotive-section-description{
+    font-size: 14px;
+  }
+  .automotive-industry-overview{
+    margin-top: 0;
+  }
+  .automotive-industry-overview h2{
+    font-size: 28px;
+  }
+  .automotive-industry-overview p{
+    padding: auto;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .automotive-key-challenges{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 0;
+   
+  }
+  .automotive-key-challenges-heading{
+    font-size: 28px;
+   margin-bottom: 10px;
+  }
+  .automotive-key-challenges-content{
+    width: 90%;
+    margin: auto;
+    
+  }
+ .automotive-key-challenges-list{
+  font-size: 14px;
+ }
+  .automotive-key-challenges-image{
+    width: 90%;
+  }
+  .automotive-key-challenges-image img{
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 0;
+    
+  }
+  .automotive-offerings-section{
+    margin-top: 30px;
+    padding: 10px 5px;
+  }
+  .automotive-offerings-title{
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  .automotive-offerings-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    gap: 10px;
+  }
+  
+  .automotive-offering-card h3{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .automotive-offering-card p,.automotive-offering-card ul li{
+    font-size: 14px;
+  }
+  .why-nagarkot-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding-left: 0;
+    margin:20px auto;
+    gap: 20px;
+    
+   }
+   .image-container{
+     width: 90%;
+     margin:auto;
+   }
+   .why-nagarkot-image{
+     margin-left: 0;
+     width:100%;
+   }
+   .content-container{
+     width: 80%;
+     padding-left: 0px;
+     margin-right: 0px;
+     margin-left: 0px;
+     flex: 1;
+   }
+   .why-nagarkot-title{
+     font-size: 28px;
+   }
+   .why-nagarkot-list {
+     margin-left: 0;
+     line-height: 18px;
+     
+   }
+   .why-nagarkot-list li{
+     font-size: 14px;
+     text-align: inherit;
+   }
+   .why-nagarkot-summary{
+     font-size: 14px;
+   }
 }

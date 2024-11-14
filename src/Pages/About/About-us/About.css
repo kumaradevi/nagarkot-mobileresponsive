@@ -195,6 +195,7 @@
 .connect-logo {
   margin-left: 2rem;
   max-width: 350px;
+
 }
 
 .connect-logo img {
@@ -202,4 +203,151 @@
   height: auto;
   object-fit: contain;
   margin-top: 20px;
+}
+
+@media (min-width:320px) and (max-width:520px) {
+  .about-container{
+    width: 100%;
+    margin:auto;
+   padding-bottom: 30px;
+  }
+  .about-us-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+   
+  }
+  .content{
+    margin-right: 0;
+    
+  }
+  .content h2{
+    font-size: 32px;
+    line-height: 52px;
+  }
+  .content p{
+    line-height: 30px;
+  }
+  .history-container{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+  .history-section h2{
+    font-size: 28px;
+    line-height: 1.1;
+  }
+  .image-grid{
+    display: flex;
+    flex-direction: column;
+  }
+  .image-container img{
+    border-radius: 10px;
+  }
+  .values-container{
+    padding: 0;
+    margin-top: 10px;
+  }
+  .values-section h2{
+    font-size: 28px;
+  }
+  .values-grid{
+    display: flex;
+    flex-direction: column;
+  }
+  .connect-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: auto;
+  }
+  .connect-content p{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .connect-logo{
+    margin: auto;
+    width: 140px;
+    display: none;
+  }
+  .apply-button{
+    padding: 8px 12px;
+    font-size: 14px
+  }
+  
+}
+
+@media (min-width:520px) and (max-width:920px) {
+  .about-container{
+    width: 90%;
+    margin:auto;
+   padding-bottom: 30px;
+  }
+  .about-us-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+   
+  }
+  .content{
+    margin-right: 0;
+    
+  }
+  .content h2{
+    font-size: 32px;
+    line-height: 52px;
+  }
+  .content p{
+    line-height: 30px;
+  }
+  .history-container{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+  .history-section h2{
+    font-size: 32px;
+  }
+  .image-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+  }
+  .image-container img{
+    border-radius: 10px;
+  }
+  .values-container{
+    padding: 0;
+    margin-top: 10px;
+  }
+  .values-section h2{
+    font-size: 32px;
+  }
+  .values-grid{
+    display: flex;
+    flex-direction: column;
+  }
+  .connect-container{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 15px;
+    margin: auto;
+  
+  }
+  .connect-content p{
+    font-size: 22px;
+    margin-top: 10px;
+    line-height: 1.2;
+  }
+  .connect-logo{
+    margin: auto;
+    width: 200px;
+
+  }
+  
 }

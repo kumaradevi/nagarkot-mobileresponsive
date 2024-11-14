@@ -50,3 +50,34 @@
     margin-top: 10px;
   }
   
+
+  /*responsive*/
+  @media (min-width:320px) and (max-width:768px) {
+    .privacy-policy-container{
+      margin-top: -10px;
+      padding: 20px;
+    }
+    .title{
+      font-size: 28px;
+      line-height: 1.1;
+    }
+   .section p{
+    font-size: 14px;
+   }
+   .section h2{
+    font-size: 22px;
+    line-height: 1.1;
+   }
+   .section h3{
+    font-size: 18px;
+    font-weight: 500;
+   }
+   .section ul{
+    font-size: 14px;
+   }
+   .section address{
+    font-size: 14px;
+   }
+  }
+
+  

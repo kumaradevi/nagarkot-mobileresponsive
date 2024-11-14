@@ -48,3 +48,48 @@
     font-family: "Changa", sans-serif;
   }
   
+/* responsive*/
+  @media (min-width:320px) and (max-width:520px) {
+    .industry-icons{
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+     
+    }
+    .industry-row{
+      /* display: flex;
+     
+      flex-direction: column;
+     
+      margin: auto; */
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .industry-title{
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .industry-item{
+      display: flex;
+      flex-direction: column;
+     
+     
+     margin-top: 40px;
+    }
+    .industry-item img{
+      height: 100px;
+    }
+    
+  }
+  @media (min-width:520px) and (max-width:978px) {
+    .industry-row{
+      /* display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; */
+
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+   
+    }
+  }

@@ -1,0 +1,37 @@
+/* .sidenavbar-container{
+    display: none;
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(#090979,#01b2f5);
+   z-index: 99;
+}
+.sidenavbar-container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+ 
+}
+.sidenavbar-list{
+    width: 80%;
+    margin: auto;
+   
+}
+.sidenavbar-container ul li{
+    color: white;
+    font-size: 20px;
+    list-style:  none;
+    margin-top: 20px;
+  
+}
+.dropdown-content{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+@media (min-width:320px) and (max-width:920px) {
+    .sidenavbar-container{
+        display: block;
+       z-index: 99;
+    }
+} */

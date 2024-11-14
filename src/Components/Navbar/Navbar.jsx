@@ -1,15 +1,20 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useEffect, useState } from 'react';
+import React, {   useEffect, useState } from 'react';
 import './Navbar.css';
 import logo from '../../assets/logo.webp';
 import downArrow from '../../assets/down-arrow.webp';
 import Form from '../Form/Form';
+import SideNavbar from './SideNavbar/SideNavbar';
+
+
 
 const Navbar = () => {
+  // const{isFormOpen,closeForm,sideNavbarOpen,handleSideNavbar,openForm}=useContext(mobileHamburgerContext);
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [sticky, setSticky] = useState(false);
-
+  const[sideNavbarOpen,setSideNavbarOpen]=useState(false)
+  const[show,setShow]=useState(true)
   const openForm = () => setIsFormOpen(true);
   const closeForm = () => setIsFormOpen(false);
 
@@ -21,7 +26,17 @@ const Navbar = () => {
   }, []);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
+//to open side navbar
+const handleSideNavbar=()=>{
+  setSideNavbarOpen(!sideNavbarOpen)
+  
+}
 
+// to close side navbar
+const handleClose=()=>{
+  setSideNavbarOpen(false)
+
+}
   return (
     <>
       <nav className={`navbar ${sticky ? 'dark-nav' : ''}`}>
@@ -33,12 +48,13 @@ const Navbar = () => {
           </div>
 
           {/* Hamburger Menu for Mobile */}
-          <div className="hamburger" onClick={toggleMenu}>
+           <div className="hamburger" onClick={handleSideNavbar}>
             <div className="line"></div>
             <div className="line"></div>
             <div className="line"></div>
-          </div>
+          </div> 
         </div>
+
 
         {/* Mobile Navbar Menu */}
         <ul className={`navbar-menu ${menuOpen ? 'show-menu' : ''}`}>
@@ -107,8 +123,11 @@ const Navbar = () => {
             <button className="btn" onClick={openForm}>CONTACT US</button>
           </li>
         </ul>
+        {sideNavbarOpen &&  <div>
+        <SideNavbar sideNavbarOpen={sideNavbarOpen} setSideNavbarOpen={setSideNavbarOpen} isFormOpen={isFormOpen} setIsFormOpen={setIsFormOpen} />
+       </div>}
       </nav>
-
+      
       {/* Contact Form Modal */}
       {isFormOpen && <Form closeForm={closeForm} />}
     </>

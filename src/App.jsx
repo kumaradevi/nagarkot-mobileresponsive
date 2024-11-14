@@ -19,6 +19,10 @@ import WarehousePage from './Pages/About/Locations/Locations';  // Import the dy
 import BlogDetail from './Components/BlogDetail/BlogDetail'; // Import your BlogDetail component
 import PrivacyPolicy from './Pages/About/Privacy-policy/pp';
 import About from './Pages/About/About-us/About';
+import LocationMenu from './Components/Navbar/SideNavbar/LocationMenu/LocationMenu';
+import SolutionMenu from './Components/Navbar/SideNavbar/SolutionMenu/SolutionMenu';
+import Resources from './Components/Navbar/SideNavbar/Resources/Resources';
+import IndustryMenu from './Components/Navbar/SideNavbar/IndustryMenu/IndustryMenu';
 
 const App = () => {
   return (
@@ -42,6 +46,13 @@ const App = () => {
         <Route path="/locations/:location" element={<WarehousePage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/about-us" element={<About/>} />
+
+  {/* Dynamic route for submenus in  mobile navbar */}
+       
+        <Route path="/location" element={<LocationMenu/>} />
+        <Route path="/solution" element={<SolutionMenu/>} />
+        <Route path="/industry" element={<IndustryMenu/>} />
+        <Route path="/blogs-menu" element={<Resources/>} />
       </Routes>
     </div>
   );

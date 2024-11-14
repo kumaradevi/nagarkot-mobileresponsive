@@ -44,3 +44,56 @@
   line-height: 1.6;
   font-family: "Changa", sans-serif;
 }
+
+@media (min-width:320px) and (max-width:475px) {
+  .value-section{
+    margin: auto;
+    padding: 0;
+    width: 90%;
+  }
+  .value-header{
+    font-size:28px;
+    margin: 20px auto;
+    line-height: 1.1;
+  }
+  .value-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ 
+  }
+ .value-card{
+  width: 100%;
+  
+ }
+ .value-description{
+  font-size: 14px;
+ }
+}
+@media (min-width:475px) and (max-width:978px) {
+  .value-section{
+    margin: auto;
+    padding: 0;
+    width: 90%;
+  }
+  .value-header{
+    margin-top: 50px;
+    font-size: 34px;
+    line-height: 1.1;
+  }
+  .value-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+ 
+  }
+ .value-card{
+  width: 100%;
+  margin-top:0;
+  
+ }
+ .value-description{
+  font-size: 14px;
+ }
+}

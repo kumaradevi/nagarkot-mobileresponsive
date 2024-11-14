@@ -3,15 +3,18 @@
 /* Style for the glossary container */
 .blogs-container {
     position: relative;
+    margin:auto;
     margin-top: 100px;
     margin-left: 80px;
     margin-right: 80px;
+    
+    
   }
   
   /* Style for the background image */
   .background-image {
     width: 100%;
-    height: 600px;
+   height: 600px;
     object-fit: cover;
     opacity: 0.9;
     border-radius: 10px;
@@ -144,4 +147,87 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-  
+@media(min-width:320px) and (max-width:768px){
+  .blogs-container{
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+   overflow: hidden;
+   margin-top: 20px;
+   
+  }
+  .image-container{
+    width:100%;
+    min-height: 200px;
+    margin-left: 0;
+    padding-left: 0;
+    overflow: hidden;
+   border-radius: 20px;
+  }
+  .background-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    /* display: none; */
+   
+  }
+  .overlay{
+    display: none;
+  }
+  .blog-title-container{
+    width: 80%;
+    margin: auto;
+   margin-top: 0;
+  }
+  .blogs-title{
+    font-size: 28px;
+    line-height: 1.1;
+  }
+  .cards-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+     margin:20px  auto;
+    padding:0;
+  }
+  .card{
+    width:100%;
+    margin: auto;
+  }
+  .cards-container h3{
+    font-size: 18px;
+  }
+  .cards-container p{
+    font-size: 14px;
+  }
+  .read-more-button{
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .page-number,
+  .prev-next {
+    padding: 4px 6px;
+    border-radius: 2px;
+  }
+}
+@media (min-width:768px) and (max-width:945px) {
+  .cards-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     margin:10px  auto;
+    padding:0;
+  }
+  .blogs-title{
+    font-size:32px ;
+    width: 90%;
+  }
+  .cards-container h3{
+    font-size: 20px;
+  }
+  .cards-container p{
+    font-size: 15px;
+  }
+}
