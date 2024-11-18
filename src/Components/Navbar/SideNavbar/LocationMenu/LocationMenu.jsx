@@ -13,6 +13,7 @@ const LocationMenu = () => {
     navigate(-1)
 
   }
+ 
   return (
     <>
  
@@ -24,7 +25,7 @@ const LocationMenu = () => {
                   <li>Gurgaon</li>
                 </Link>
                 <Link to="/locations/gujarat">
-                  <li>Ahemadabad</li>
+                  <li>Ahmedabad</li>
                 </Link>
                 <Link to="/locations/bhiwandi">
                   <li>Bhiwandi</li>
@@ -42,7 +43,7 @@ const LocationMenu = () => {
                   <li>Hyderabad</li>
                 </Link>
                 <Link to="/locations/kolkatta">
-                  <li>Kolkatta</li>
+                  <li>Kolkata</li>
                 </Link>
                 <Link to="/locations/lucknow">
                   <li>Lucknow</li>

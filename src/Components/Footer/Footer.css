@@ -304,3 +304,26 @@
   
 
 }
+@media (min-width:981px) and (max-width:1440px) {
+  .footer-top{
+    display: flex;
+    justify-content: space-between;
+   gap: 30px;
+   
+    
+  }
+  .footer-grid{
+    margin: auto;
+    gap: 30px;
+    width: 100%;
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(2,1fr);
+   
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+  }
+}
