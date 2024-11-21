@@ -158,3 +158,72 @@
        opacity: 80%;
     }
 }
+
+@media (min-width:1700px)  {
+    .hero {
+        width: 100%;
+        min-height: 100vh;
+        background-color: white; /* White background for the hero section */
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative; /* Position relative for the background image */
+        padding-left: 50px; /* Space between text and left edge */
+        box-sizing: border-box; /* Ensures padding does not affect overall width */
+    }
+    .hero-text {
+        background-color: white; /* White background for the text area */
+        padding: 20px; /* Add padding around text */
+        border-radius: 8px; /* Optional: Rounded corners for the text box */
+        max-width: 900px; /* Maximum width for the text block */
+        position: relative; /* Ensure the text box is above the background image */
+        z-index: 1; /* Make sure text is above the image */
+        font-family: "Changa", sans-serif;
+        font-weight: 800;
+    }
+    
+    .hero-text p {
+        max-width: 700px;
+        margin: 10px 0 20px;
+        margin-top: 20px;
+    }
+    
+    .highlight {
+        font-weight: normal;
+        font-size: 60px;
+        display: block;
+        line-height : 0 ;
+        margin-bottom : 45px;
+        color: #1A3E70;
+    }
+    
+    .sub {
+        font-size: 30px;
+        line-height : 1.4; 
+        font-family: "Changa", sans-serif;
+        font-weight: 400;
+    }
+    
+    .hero-text button {
+        margin-top: 20px;
+    }
+    
+    /* Background image positioned on the right side */
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%; /* Adjust width to control how much space the image covers */
+        height: 100%;
+        background: url(../../assets/bg.webp) no-repeat center center;
+        background-size: cover;
+        z-index: 0; /* Place it behind the text */
+    }
+}
+/* @media (min-width:2000px) {
+    .hero-text{
+        min-width: 900px;
+    }
+} */

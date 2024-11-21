@@ -6,9 +6,11 @@
 }
 
 .footer-top {
+  width: 100%;/*changes*/
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  
 }
 
 .footer-logo img {
@@ -21,8 +23,10 @@
   display: flex;
   gap: 80px;
   margin-top: 20px;
-  margin-right: 340px;
-  margin-left: 10px;
+  /* margin-right: 340px; */
+  margin-right: 0; /* changes*/
+  /* margin-left: 10px; */
+  margin:30px auto;/*changes*/
 }
 
 .footer-column h3 {
@@ -324,6 +328,11 @@
   .grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-   
+      
+  }
+  .footer-bottom{
+    width: 90%;
+    margin: auto;
+    
   }
 }
