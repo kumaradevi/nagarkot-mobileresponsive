@@ -42,7 +42,7 @@ const LocationMenu = () => {
                 <Link to="/locations/hyderabad">
                   <li>Hyderabad</li>
                 </Link>
-                <Link to="/locations/kolkatta">
+                <Link to="/locations/kolkata">
                   <li>Kolkata</li>
                 </Link>
                 <Link to="/locations/lucknow">

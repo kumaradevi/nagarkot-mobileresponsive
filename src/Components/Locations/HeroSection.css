@@ -86,7 +86,7 @@
       
      }
      .hero-title{
-      font-size: 25px;
+      font-size: 22px;
      font-weight: 600;
      margin-top: 10px;
      }
@@ -104,7 +104,7 @@
      .hero-image{
       opacity: 60%;
       width:90%;
-      overflow: hidden;
+      overflow: hidden ;
       margin: auto;
       margin-right: 0;
       margin-left: 0;

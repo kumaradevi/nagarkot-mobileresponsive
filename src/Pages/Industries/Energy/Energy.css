@@ -82,7 +82,7 @@
   text-align: center;
   font-family: "Changa", sans-serif;
   font-weight: normal;
-  line-height: 64px;
+  line-height: 52px;
 }
 
 .energy-key-challenges-list {
@@ -100,7 +100,7 @@
   line-height: 24px;
 }
 
-.energy-key-challenges-image {
+/* .energy-key-challenges-image {
   flex: 1;
 }
 
@@ -111,7 +111,21 @@
   border-radius: 8px;
   margin-right: 200px;
   margin-top: 20px;
+} */
+
+.energy-key-challenges-image{
+  width: 40%;
+ 
 }
+.energy-key-challenges-image img{
+  width: 80%;
+  height: 400px;
+  margin-top: 20px;
+  margin-right: 0;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
 
 /* Offerings Section */
 .energy-offerings-section {
@@ -351,7 +365,7 @@
    }
 }
 
-@media (min-width:520px) and (max-width:978px) {
+@media (min-width:521px) and (max-width:978px) {
   .energy-section{
     width: 100%;
     min-height: 300px;
