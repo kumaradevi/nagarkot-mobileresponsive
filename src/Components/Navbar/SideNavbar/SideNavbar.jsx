@@ -33,7 +33,7 @@ const SideNavbar = ({setSideNavbarOpen,isFormOpen,setIsFormOpen}) => {
           </Link>
 
           <Link to="/industry">
-            <li> Indutries </li>{" "}
+            <li> Industries </li>{" "}
           </Link>
           <Link to="/solution">
             <li> Solutions </li>{" "}
